@@ -83,15 +83,27 @@ header {
 	border-bottom: 5px solid black;
 	margin: 20px 0;
 	padding: 20px 0;
-	display: flex;
+	display: inline-block;
 	justify-content: space-between;
+	margin-bottom: 30px;
+	align-self: center;
 	h1 {
 		font-size: 2rem;
 		color: black;
 		@media screen ( max-width: 515px ) {
+			margin-bottom: 20px;
+		}
+	}
+	nav {
+		margin-left: 62px;
+		@media screen ( max-width: 515px ) {
 			background: @blue;
 			margin-left: 0;
 		}
+	}
+	a {
+		margin-left: 20px;
+		font-size: 1.8rem;
 	}
 }
 
