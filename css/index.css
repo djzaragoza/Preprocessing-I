@@ -133,4 +133,152 @@ table {
 html,
 body {
   height: 100%;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-size: 2rem;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+.container {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 1.6rem;
+}
+h2,
+h3 {
+  font-size: 18px;
+}
+.nav {
+  display: inline-block;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  margin-left: 50px;
+  align-self: center;
+}
+.nav-link {
+  margin-right: 60px;
+  text-decoration: none;
+  color: #9c9c9c;
+}
+header {
+  margin: auto;
+  padding: 20px 0;
+}
+.logo h2 {
+  font-size: 4rem;
+}
+.logo h3 {
+  font-size: 2rem;
+}
+p {
+  line-height: 1.5;
+}
+.intro {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+  border-bottom: 2px dashed black;
+}
+.intro .text-intro {
+  width: 45%;
+  padding: 0 1%;
+  padding-bottom: 20px;
+  margin-top: 20px;
+}
+.text-intro h2 {
+  font-size: 3.2rem;
+}
+.skills {
+  margin: 0;
+  border-bottom: 1px dashed black;
+}
+.skills h2 {
+  padding: 0 2%;
+  margin-bottom: 0;
+}
+.skills .boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.skills .boxes .box-1 {
+  width: 12.5%;
+  height: 100px;
+  background: teal;
+  margin: 20px 2.5%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.skills .boxes .box-2 {
+  width: 12.5%;
+  height: 100px;
+  background: black;
+  margin: 20px 2.5%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.skills .boxes .box-3 {
+  width: 12.5%;
+  height: 100px;
+  background: teal;
+  margin: 20px 2.5%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.skills .boxes .box-4 {
+  width: 12.5%;
+  height: 100px;
+  background: black;
+  margin: 20px 2.5%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.skills .boxes .box-5 {
+  width: 12.5%;
+  height: 100px;
+  background: teal;
+  margin: 20px 2.5%;
+  color: white;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.work-history {
+  display: flex;
+  margin: 0 2% 20px;
+  justify-content: space-around;
+}
+.work-history h2 {
+  padding: 0 2%;
+  margin-top: 20px;
+  margin-right: 100px;
+}
+.work-history .text-work {
+  padding-right: 4%;
+  margin-top: 20px;
+}
+.work-history.text-work:last-child {
+  padding-right: 0;
+}
+footer {
+  width: 100%;
+  background: black;
 }
