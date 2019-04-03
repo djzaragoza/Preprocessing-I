@@ -208,7 +208,9 @@ p {
 .work-history {
     display: flex;
     margin: 0 2% 20px;
-    justify-content: space-around;
+	justify-content: space-around;
+	margin: 0;
+    border-bottom: 1px dashed black;
 }
 
 .work-history h2 {
@@ -217,15 +219,41 @@ p {
 	margin-right: 100px;
 }
 
-.work-history .text-work {
-    padding-right: 4%;
-    margin-top: 20px;
+table {
+	font-family: Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
 }
 
-.work-history.text-work:last-child {
-    padding-right: 0;
+td, th {
+	border: 1px solid #dddddd;
+	text-align: left;
+	padding: 8px;
 }
 
+tr:nth-child(even) {
+	background-color: #dddddd;
+}
+
+.education {
+	margin-top: 20px;
+}
+
+.ed-table {
+	font-family: Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+td, th {
+	border: 1px solid #dddddd;
+	text-align: left;
+	padding: 8px;
+}
+
+tr:nth-child(even) {
+	background-color: #dddddd;
+}
 footer {
     width: 100%;
     background: black;
